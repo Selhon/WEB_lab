@@ -1,0 +1,114 @@
+body {
+    background: black;
+    /*background-image: url(фон2.jpg);*/
+}
+h2{
+    font-size: 150%;
+}
+.site-header{
+    position: absolute;
+}
+
+/*кнопки вверху экрана на главной станице для перехода в портфолио*/
+.jump-button-prog {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left:50%;
+    transform: translate(-100%,0);
+    z-index: 1;
+}
+.text-button-prog{
+    position: absolute;
+    margin-left: 50%;
+    color: white;
+    transform: translate(-140%,150%);
+    z-index: 1;
+}
+.jump-button-artist {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 50%;
+    z-index: 1;
+}
+.text-button-artist{
+    position: absolute;
+    margin-left: 50%;
+    color: white;
+    transform: translate(45%,310%);
+    z-index: 1;
+}
+
+/*фото владельца портфолио на главной странице*/
+.foto {
+    left: 0;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+}
+/*треугольные двигающиеся вкладки на главной странице*/
+.bookmark{
+    left: 0;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+    font-size: 0px;
+}
+.triangle {
+    width: 0px;
+    height: 0px;
+    opacity:0.8;
+    border-left: 564px solid transparent;
+    border-right: 564px solid transparent;
+    border-bottom: 100px solid #7fc1ff;
+}
+.rectangle{
+    width: 1128px;
+    height: 1500px;
+    opacity:0.8;
+    background: #7fc1ff;
+}
+.window-content{
+    width: 850px;
+    height: 1400px;
+    background: white;
+    border: 4px dashed black;
+    border-radius: 30px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 40%;
+    transform: translate(-50%,0);
+    z-index: 3;
+}
+.text-window-content{
+    margin-left: 15px;
+}
+.text-window-button{
+    margin-bottom: 50px;
+}
+
+/*подвал*/
+.rectangle-footer{
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+    height: 40px;
+    background: darkblue;
+    color: #c7e4ff;
+    margin-top: 133%;
+}
+
+.text-footer{
+    margin-left: 50%;
+    transform: translate(-8%,50%);
+}
+
+
